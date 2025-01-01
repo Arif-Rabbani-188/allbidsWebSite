@@ -73,12 +73,21 @@ li{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:gainsboro;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     transition: 0.5s;
+}
+
+.sideBar nav ul li{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    font-size: 3vh;
+    color: black;
+    text-shadow: 2px 2px 2px white;
 }
 
 #productImage{
@@ -140,6 +149,9 @@ button{
 }
 
 @media (max-width: 1300px) {
+    h1{
+        font-size: 6vh;
+    }
     #newHeading1{
         display: none;
     }
