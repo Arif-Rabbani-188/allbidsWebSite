@@ -60,13 +60,7 @@ li{
     background-image: url('bg.jpg');
     background-size: cover;
 }
-.sideBar nav ul li{
-    display: flex;
-    margin-top: 3vh;
-    font-size: 5vh;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-}
+
 .sideBar{
     margin-top: 11vh;
     display: none;
@@ -92,6 +86,7 @@ li{
 }
 
 #productImage{
+    margin-left: 5vmin;
     margin-top: 10vmin;
     transform: rotate(8deg);
     border-radius: 5%;
